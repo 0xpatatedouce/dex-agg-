@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 mkdir dune-notion-sync
 cd dune-notion-sync
 git init
@@ -37,5 +39,8 @@ git add run_dune.py requirements.txt
 git commit -m "Add Dune query script"
 git remote add origin git@github.com:0xpatatedouce/dune-notion-sync.git
 git push -u origin main
+
+
+
 
 
