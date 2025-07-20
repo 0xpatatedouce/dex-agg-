@@ -32,3 +32,12 @@ def run_query():
 if __name__ == "__main__":
     data = run_query()
     print(data)
+
+requests
+
+git add run_dune.py requirements.txt
+git commit -m "Add Dune query script"
+git remote add origin git@github.com:TON_UTILISATEUR/dune-notion-sync.git
+git push -u origin main
+
+
