@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 
-mkdir dune-notion-sync
-cd dune-notion-sync
-git init
-
 import time, requests
 
 API_KEY   = "3lTqlUuhHrgwGONwF1JED19xK7kGgJfF"
@@ -35,10 +31,6 @@ if __name__ == "__main__":
     data = run_query()
     print(data)
 
-git add run_dune.py requirements.txt
-git commit -m "Add Dune query script"
-git remote add origin git@github.com:0xpatatedouce/dune-notion-sync.git
-git push -u origin main
 
 
 
